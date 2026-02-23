@@ -1,5 +1,9 @@
 #!/bin/bash
 # Log file for debugging
+
+make clean
+make dirclean
+
 source shell/custom-packages.sh
 echo "第三方软件包: $CUSTOM_PACKAGES"
 LOGFILE="/tmp/uci-defaults-log.txt"
